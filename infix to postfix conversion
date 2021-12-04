@@ -41,18 +41,6 @@ char pop()
     return x;
 } 
 
-void Display()
-{
-    struct Node *p;
-    p=top;
-    while(p!=NULL)
-    {
-        cout<<p->data<<" ";
-        p=p->next;
-    }
-    cout<<"\n";
-}
-
 int pre(char x)
 {
     if(x=='+' || x=='-')
